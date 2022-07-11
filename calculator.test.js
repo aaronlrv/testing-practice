@@ -20,7 +20,7 @@ test("minus doesnt take letters", () => {
 });
 
 test("multiply", () => {
-  expect(minus(5, 5)).toBe(25);
+  expect(multiply(5, 5)).toBe(25);
 });
 
 test("multiply doesnt take letters", () => {
