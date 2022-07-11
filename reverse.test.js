@@ -7,3 +7,7 @@ test("hello reverse", () => {
 test("reverse with capital", () => {
   expect(reverseString("Howdy")).toBe("ydwoH");
 });
+
+test("reverse with spaces", () => {
+  expect(reverseString("Greetings from Earth")).toBe("htraE morf sgniteerG");
+});
