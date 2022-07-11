@@ -10,3 +10,7 @@ test("add", () => {
 test("add doesnt take letters", () => {
   expect(add(5, "c")).toBe("Only input numbers!");
 });
+
+test("minus", () => {
+  expect(minus(5, 5)).toBe(0);
+});
