@@ -18,3 +18,11 @@ test("minus", () => {
 test("minus doesnt take letters", () => {
   expect(minus(5, "c")).toBe("Only input numbers!");
 });
+
+test("multiply", () => {
+  expect(minus(5, 5)).toBe(25);
+});
+
+test("multiply doesnt take letters", () => {
+  expect(multiply(5, "c")).toBe("Only input numbers!");
+});
