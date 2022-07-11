@@ -26,3 +26,15 @@ test("multiply", () => {
 test("multiply doesnt take letters", () => {
   expect(multiply(5, "c")).toBe("Only input numbers!");
 });
+
+test("divide", () => {
+  expect(divide(5, 5)).toBe(1);
+});
+
+test("divide doesnt take letters", () => {
+  expect(divide(5, "c")).toBe("Only input numbers!");
+});
+
+test("divide with 0 gives 0", () => {
+  expect(divide(5, 0)).toBe(0);
+});
